@@ -1,29 +1,14 @@
-body {
-	margin: 0;
-	background-color: #eeeeee;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
 }
-
-nav {
-	color: #fff;
-	background-color: #333333;
-	width: 100%;
-	height: 56px;
-	line-height: 56px;
-}
-
-.row .col.s2 {
-	background-color: #cccccc;
-
-	width: 16.6666666667%;
-	margin-left: auto;
-	left: auto;
-	right: auto;
-}
-
-.nav_left {
-	height:100%;
-}
-
-.home_content {
-	height: auto;
+.icon-block .material-icons {
+	font-size: inherit;
 }
